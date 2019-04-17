@@ -1,5 +1,5 @@
 FROM centos:6
-MAINTAINER Takayuki Miwa <i@tkyk.name>
+LABEL MAINTAINER="Jasper Frumau htps://imwz.io"
 
 ENV code_root /code
 ENV httpd_conf ${code_root}/httpd.conf
